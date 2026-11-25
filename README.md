@@ -12,7 +12,7 @@ Steady, controlled gains beat one lucky moonshot — so the bot trades like a
 bookkeeper. Every strategy position stakes the same small 0.05 SOL. A curve
 only qualifies on a dip inside strength: over the last 24 slots its price
 ran up at least 15% on broad buying (several distinct buyers, at least
-3 SOL of net inflow, no single wallet over 55% of the buy volume), it has
+2 SOL of net inflow, no single wallet over 55% of the buy volume), it has
 since pulled back 5–20% from its high, and SOL is still flowing in faster
 in the newer half of the window than the older half — buyers returning to a
 proven curve, bought on the pullback rather than at the top. The curve must
@@ -22,7 +22,7 @@ enough (3–90 SOL) to leave in.
 Each position is sold whole on the first of:
 
 - take profit at +7% of cost (by close value),
-- stop loss at −5%,
+- stop loss at −6%,
 - a trailing stop once up 6% (fires 6% below the peak value),
 - a flow fade (net SOL over the last 20 slots below −1 SOL),
 - a time limit (120 slots if the position has gone nowhere, 250 regardless).
